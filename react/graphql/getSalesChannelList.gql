@@ -1,0 +1,7 @@
+query getSalesChannelList {
+  getSalesChannelList {
+    Id
+    Name
+    IsActive
+  }
+}

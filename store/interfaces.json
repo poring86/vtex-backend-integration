@@ -1,0 +1,8 @@
+{
+  "codeby-country-selector": {
+    "component": "CountrySelector"
+  },
+  "codeby-country-selected": {
+    "component": "CountrySelected"
+  }
+}

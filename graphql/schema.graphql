@@ -1,0 +1,33 @@
+type CurrencyFormatInfo {
+  CurrencyDecimalDigits: Int
+  CurrencyDecimalSeparator: String
+  CurrencyGroupSeparator: String
+  CurrencyGroupSize: Int
+  StartsWithCurrencySymbol: Boolean
+}
+
+type SalesChanel {
+  Id: ID
+  Name: String
+  IsActive: Boolean
+  ProductClusterId: Int
+  CountryCode: String
+  CultureInfo: String
+  TimeZone: String
+  CurrencyCode: String
+  CurrencySymbol: String
+  CurrencyLocale: String
+  CurrencyFormatInfo: CurrencyFormatInfo
+  CurrencyDecimalDigits: Int
+  CurrencyDecimalSeparator: String
+  CurrencyGroupSeparator: String
+  CurrencyGroupSize: String
+  StartsWithCurrencySymbol: Boolean
+  Origin: String
+  Position: Int
+  ConditionRule: Int
+}
+
+type Query {
+  getSalesChannelList: [SalesChanel]
+}
